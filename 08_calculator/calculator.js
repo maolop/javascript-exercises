@@ -7,14 +7,14 @@ const subtract = function(num1, num2) {
 };
 
 const sum = function(nums) {
-	total = 0
+	let total = 0
   for (item of nums)
     total += item
   return total
 };
 
 const multiply = function(nums) {
-  total = 1
+  let total = 1
   for (item of nums)
     total *= item
   return total
@@ -25,7 +25,7 @@ const power = function(num, power) {
 };
 
 const factorial = function(num) {
-  total = 1
+  let total = 1
   while (num >= 1) {
     total *= num
     num--
